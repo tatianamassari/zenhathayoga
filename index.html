@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatha Yoga</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f2eb; /* Fundo tom pergaminho suave */
+            color: #2b2b2b;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            min-height: 100vh;
+        }
+        .card {
+            width: 100%;
+            max-width: 450px;
+            background: #ffffff;
+            border: 2px solid #8a1c14; /* Borda vermelha oriental */
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .banner {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 2px solid #8a1c14;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .text-placeholder {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            color: #4a4a4a;
+            font-style: italic;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding: 20px;
+        }
+        .btn {
+            display: block;
+            text-align: center;
+            background-color: #1e3d59;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .btn:active {
+            background-color: #173046;
+        }
+        .wpp-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-color: #25D366; /* Verde oficial do WhatsApp */
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+            margin-bottom: 25px;
+            transition: background-color 0.2s;
+        }
+        .wpp-btn:active {
+            background-color: #1ebd58;
+        }
+        .address-box {
+            background-color: #fff9eb; /* Fundo interno dourado bem claro */
+            border-top: 1px dashed #d4af37; /* Detalhe em dourado */
+            padding: 15px;
+            font-size: 14px;
+            color: #5c5c5c;
+            border-radius: 0 0 10px 10px;
+        }
+        .address-title {
+            font-weight: bold;
+            color: #8a1c14;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Substitua pelo arquivo da sua imagem -->
+        <img class="banner" src="flyer.jpg" alt="Aulas de Yoga">
+        
+        <div class="content">
+            <!-- Texto a definir -->
+            <p class="text-placeholder">
+                O Caminho para o Bem-Estar PlenoO Hatha Yoga é uma prática milenar que une corpo, mente e espírito através de posturas físicas (asanas) e controle da respiração (pranayamas). Ao equilibrar nossas energias internas, ele atua diretamente na melhora da qualidade de vida, reduzindo o estresse diário, aumentando a flexibilidade e trazendo clareza mental.Mais do que bem-estar imediato, a prática regular fortalece o sistema imunológico e preserva a saúde celular, sendo um pilar essencial para a longevidade ativa e saudável. Nesse estado de equilíbrio e silêncio interior, o Hatha Yoga transcende o aspecto físico, tornando-se uma ponte sagrada que desperta a espiritualidade e facilita a nossa conexão com o superior. Pratique e transforme sua jornada.
+            </p>
+            
+            <!-- Link para o WhatsApp (Substitua os zeros pelo seu número com DDD) -->
+            <a href="https://wa.me/5511920029867" target="_blank" class="wpp-btn">
+                Fale Conosco no WhatsApp
+            </a>
+        </div>
+        
+        <div class="button-container">
+            <a href="yogahist.html" target="_blank" class="btn">História do Yoga</a>
+            <a href="yogabeneficios.html" class="btn">Benefícios do Yoga</a>
+        </div>
+
+        <!-- Campo de Endereço -->
+        <div class="address-box">
+            <div class="address-title">Nosso Local</div>
+            <p><a href="https://www.kungfuzenmarcial.com.br/">Academia Zen Marcial</a></p>
+            <p>Rua Muniz de Souza, 653 - Aclimação</p>
+            <p>São Paulo - SP</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
